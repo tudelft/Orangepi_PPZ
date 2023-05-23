@@ -1,0 +1,1 @@
+gcc *.c -Ofast -march=native -lm -lwiringPi -pthread -fopenmp
