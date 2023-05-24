@@ -9,7 +9,7 @@ To test the code you can clone the repository on the OrangePi 5 SBC and compile 
 
 # Wiring:
 **Connection to the Autopilot:**
-|  AP PIN | Orangepi PIN |
+|  AP PIN | OrangePi 5 PIN |
 | ----- | -------- |
 | AP UART TX | GPIO4_A4 | 
 | AP UART RX | GPIO4_A3 | 
