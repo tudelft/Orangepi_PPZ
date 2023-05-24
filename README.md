@@ -6,3 +6,12 @@ The primary function in this repository is the "am7.c" function. This function i
 Note that to compile the functions you need to have the WiringPi and pthread library installed on the SBC. These libraries are installed by default in the OrangePi OS (http://www.orangepi.org/html/softWare/orangePiOS/index.html). 
 
 To test the code you can clone the repository on the OrangePi 5 SBC and compile it with the provided makefile. 
+
+# Wiring:
+**Connection to the Autopilot:**
+|  AP PIN | Orangepi PIN |
+| ----- | -------- |
+| AP UART TX | GPIO4_A4 | 
+| AP UART RX | GPIO4_A3 | 
+
+For the identification of the orangepi pin, please refer to the OrangePi website: http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html
