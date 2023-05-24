@@ -9,7 +9,7 @@
 #include <wiringSerial.h>
 #include <sys/time.h>
 #include <math.h>
-#include "rtwtypes.h"
+#include "MATLAB_generated_files/rtwtypes.h"
 #include <stddef.h>
 
 #ifndef AM7_H
@@ -18,7 +18,7 @@
 //Define the baudrate for the module and the starting byte 
 #define START_BYTE 0x9B  //1st start block identifier byte
 #define BAUDRATE_AM7 460800 //Define the baudrate
-#define MAX_FREQUENCY_MSG_OUT 750 //Define the maximum message output frequency
+#define MAX_FREQUENCY_MSG_OUT 300 //Define the maximum message output frequency
 
 //Communication structures
 struct  __attribute__((__packed__)) am7_data_out {

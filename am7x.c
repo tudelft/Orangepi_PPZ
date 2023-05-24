@@ -1,7 +1,7 @@
 #include "am7x.h"
 #include <pthread.h>
-#include "Global_controller_fcn_earth_rf_journal.h"
-#include "rt_nonfinite.h"
+#include "MATLAB_generated_files/Global_controller_fcn_earth_rf_journal.h"
+#include "MATLAB_generated_files/rt_nonfinite.h"
 #include <string.h>
 
 struct am7_data_out myam7_data_out;
@@ -30,7 +30,7 @@ int verbose_optimizer = 0;
 void am7_init(){
 
   //Init serial port
-  if ((serial_port = serialOpen ("/dev/ttyS0", BAUDRATE_AM7)) < 0){
+  if ((serial_port = serialOpen ("/dev/ttyS3", BAUDRATE_AM7)) < 0){
     fprintf (stderr, "Unable to open serial device: %s\n", strerror (errno)) ;
   }
   if (wiringPiSetup () == -1){
