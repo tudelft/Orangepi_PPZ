@@ -8,7 +8,7 @@ Note that to compile the functions you need to have the WiringPi and pthread lib
 To test the code you can clone the repository on the OrangePi 5 SBC and compile it with the provided makefile. 
 
 # Wiring: 
-The wirings between the Orange cube and the OrangePi 5 is reported in the following diagram: [OrangePi_PPZ_wirings.pdf](Documentation/OrangePi_PPZ_wirings.pdf).
+The wirings between the Orange cube and the OrangePi 5 are reported in the following diagram: [OrangePi_PPZ_wirings.pdf](Documentation/OrangePi_PPZ_wirings.pdf).
 
 **Connection to the Autopilot:**
 |  AP PIN | OrangePi 5 PIN |
