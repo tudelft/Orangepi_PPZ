@@ -16,4 +16,3 @@ The wirings between the Orange cube and the OrangePi 5 are reported in the follo
 | AP UART TX | GPIO4_A4 | 
 | AP UART RX | GPIO4_A3 | 
 
-For the identification of the orangepi pins, please refer to the OrangePi website: http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html
